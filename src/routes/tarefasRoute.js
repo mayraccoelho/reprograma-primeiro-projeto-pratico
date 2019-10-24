@@ -8,5 +8,6 @@ router.get('/', controller.get)
 router.get('/concluidos', controller.getConcluidos)
 router.get('/:id', controller.getById)
 router.get('/busca/:nome', controller.getByNome)
+router.get('/tarefasdata', controller.GetTarefasData)
 
 module.exports = router
