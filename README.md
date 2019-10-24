@@ -15,10 +15,10 @@ Descrição
 
 ## Endpoints Criados
 
-GET - Index - '/'
-GET - Concluidos - '/concluidos'
-GET - ID - '/:id'
-GET - Buscar nomes - '/busca/:nome'
+GET - Index - '/' <br>
+GET - Concluidos - '/concluidos' <br>
+GET - ID - '/:id' <br>
+GET - Buscar nomes - '/busca/:nome' <br>
 
 ## Postman
 
