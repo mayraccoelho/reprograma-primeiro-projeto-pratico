@@ -4,7 +4,8 @@
         "descricao": "confia",
         "data": "03/04/2019",
         "check": "true",
-        "nomeColaborador": "Maria" 
+        "nomeColaborador": "Maria", 
+        "TarefaConcluida": "25/04/2019"
     },
 
     {
@@ -12,7 +13,8 @@
         "descricao": "sempre",
         "data": "29/12/2020",
         "check": "true",
-        "nomeColaborador": "Helena" 
+        "nomeColaborador": "Helena", 
+        "TarefaConcluida": "25/05/2019" 
     },
 
     {
@@ -20,6 +22,71 @@
         "descricao": "fé",
         "data": "12/08/2016",
         "check": "false",
-        "nomeColaborador": "Helena" 
+        "nomeColaborador": "Ana", 
+        "TarefaConcluida": "23/02/2019"
+    }, 
+    {
+        "id": 4,
+        "descricao": "fé",
+        "data": "12/08/2016",
+        "check": "false",
+        "nomeColaborador": "Natalia", 
+        "TarefaConcluida": "22/02/2019" 
+    }, 
+    {
+        "id": 5,
+        "descricao": "fé",
+        "data": "12/08/2016",
+        "check": "false",
+        "nomeColaborador": "Mayara", 
+        "TarefaConcluida": "21/01/2019" 
+    }, 
+    {
+        "id": 6,
+        "descricao": "fé",
+        "data": "12/08/2016",
+        "check": "false",
+        "nomeColaborador": "Amanda", 
+        "TarefaConcluida": "15/09/2019" 
+    },
+    {
+        "id": 7,
+        "descricao": "fé",
+        "data": "12/08/2016",
+        "check": "false",
+        "nomeColaborador": "Helena", 
+        "TarefaConcluida": "10/10/2019" 
+    },
+    {
+        "id": 8,
+        "descricao": "fé",
+        "data": "12/08/2016",
+        "check": "false",
+        "nomeColaborador": "Joana", 
+        "TarefaConcluida": "25/12/2019" 
+    },
+    {
+        "id": 9,
+        "descricao": "fé",
+        "data": "12/08/2016",
+        "check": "false",
+        "nomeColaborador": "Leticia", 
+        "TarefaConcluida": "20/12/2019" 
+    },
+    {
+        "id": 10,
+        "descricao": "fé",
+        "data": "12/08/2016",
+        "check": "false",
+        "nomeColaborador": "Maria", 
+        "TarefaConcluida": "25/09/2019" 
+    },
+    {
+        "id": 11,
+        "descricao": "fé",
+        "data": "12/08/2016",
+        "check": "false",
+        "nomeColaborador": "Caroline", 
+        "TarefaConcluida": "25/08/2019" 
     }
 ]

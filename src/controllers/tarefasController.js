@@ -34,3 +34,9 @@ exports.getByNome = (req, res) => {
     }
     res.send(buscarNome)
 }
+
+exports.GetTarefasData = (req, res) => {
+//Você deverá listar as tarefas por data de inclusão. Das mais novas para as mais antigas.
+    
+    const 
+}
