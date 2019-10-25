@@ -1,10 +1,6 @@
-// indicacoes das rotas
-// configuracoes de requisicao
-
 const express = require('express')
 const app = express()
 
-//ler rota
 const index = require("./routes/indexRoute")
 const tarefas = require('./routes/tarefasRoute')
 

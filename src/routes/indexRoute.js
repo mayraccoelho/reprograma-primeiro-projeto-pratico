@@ -1,5 +1,3 @@
-// definicao das rotas e dos verbos
-
 const express = require('express')
 const router = express.Router()
 

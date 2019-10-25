@@ -1,6 +1,3 @@
-// definicao propriamente dita da acao,
-// por exemplo, listar as professoras
-
 const tarefas = require('../model/tarefas.json')
 
 exports.get = (req, res) => {
@@ -10,10 +7,9 @@ exports.get = (req, res) => {
 
 exports.getById = (req, res) => {
     const id = req.params.id
-    // console.log(id)
     const buscarId = (tarefas.find(item => item.id == id))
-    
-    if(!buscarId){
+
+    if (!buscarId) {
         res.redirect(301, "https://github.com/reprograma/CursoOnline-Aula3-Git-and-Github")
     }
     res.send(buscarId)
@@ -26,17 +22,10 @@ exports.getConcluidos = (req, res) => {
 
 exports.getByNome = (req, res) => {
     const nome = req.params.nome
-    // console.log(id)
     const buscarNome = (tarefas.filter(item => item.nomeColaborador == nome))
-    
-    if(!buscarNome){
+
+    if (!buscarNome) {
         res.redirect(301, "https://github.com/reprograma/CursoOnline-Aula3-Git-and-Github")
     }
     res.send(buscarNome)
-}
-
-exports.GetTarefasData = (req, res) => {
-//Você deverá listar as tarefas por data de inclusão. Das mais novas para as mais antigas.
-    
-    const 
 }
