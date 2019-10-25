@@ -13,10 +13,38 @@
 
 ## Endpoints Criados
 
-GET - Index - router.get('/', controller.get) <br>
-GET - Tarefas concluídas - router.get('/concluidos', controller.getConcluidos) <br>
-GET - ID - router.get('/:id', controller.getById) <br>
-GET - Buscar nomes - router.get('/busca/:nome', controller.getByNome) <br>
+<table>
+<thead>
+<th>Funcionalidade</th>
+<th>Caminho</th>
+<th>Verbo</th>
+</thead>
+
+<tr>
+<td>GET</td>
+<td>Index</td>
+<td>'/'
+</tr>
+
+<tr>
+<td>GET</td>
+<td>Tarefas Concluídas</td>
+<td>'/concluidos'</td>
+</tr>
+
+<tr>
+<td>GET</td>
+<td>Busca por ID</td>
+<td>'/:id'</td>
+</tr>
+
+<tr>
+<td>GET</td>
+<td>Busca por Nome</td>
+<td>'/busca/:nome'</td>
+</tr>
+
+
 
 ## Postman
 
