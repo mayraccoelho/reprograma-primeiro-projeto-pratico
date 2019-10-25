@@ -43,7 +43,7 @@
 <td>Busca por Nome</td>
 <td>'/busca/:nome'</td>
 </tr>
-
+</table>
 
 
 
